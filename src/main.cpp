@@ -1,11 +1,9 @@
 // Compile Command(Clang++):clang++ -std=c++17 main.cpp -o 7z_expl.exe -lShell32 -lUser32 -mwindows
 
-#include <iostream>
 #include <string>
 #include <windows.h>
 #include <shellapi.h>
 #include <filesystem>
-#include <vector>
 
 // 7-Zipのインストールパスを指定
 const std::wstring seven_zip_path = L"\"C:\\Program Files\\7-Zip\\7zG.exe\"";
